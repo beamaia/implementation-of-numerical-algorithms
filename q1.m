@@ -13,14 +13,16 @@ size_bcsstk01 = length(bcsstk01)
 eNorm_bcsstk01 = norm(bcsstk01, 2)
 numCond_bcsstk01 = cond(bcsstk01)
 printf("\n")
+
 size_plat362 = length(plat362)
 eNorm_plat362 = norm(plat362, 2)
 numCond_plat362 = cond(plat362)
 printf("\n")
-# size_bcsstk15 = length(bcsstk15)
-# eNorm_bcsstk15 = norm(bcsstk15, 2)
-# numCond_bcsstk15 = cond(bcsstk15)
 
+size_bcsstk15 = length(bcsstk15)
+eNorm_bcsstk15 = norm(bcsstk15, 2)
+numCond_bcsstk15 = cond(bcsstk15)
+printf("\n")
 
 ###########  questão 2.b  ###########
 [L,U,P,Q] = lu(bcsstk01);
