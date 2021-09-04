@@ -9,17 +9,17 @@ bcsstk15 = Problem.A;
 
 ###########  questão 2.a  ###########
 
-size_bcsstk01 = length(bcsstk01)
+size_bcsstk01 = rows(bcsstk01)
 eNorm_bcsstk01 = norm(bcsstk01, 2)
 numCond_bcsstk01 = cond(bcsstk01)
 printf("\n")
 
-size_plat362 = length(plat362)
+size_plat362 = rows(plat362)
 eNorm_plat362 = norm(plat362, 2)
 numCond_plat362 = cond(plat362)
 printf("\n")
 
-size_bcsstk15 = length(bcsstk15)
+size_bcsstk15 = rows(bcsstk15)
 eNorm_bcsstk15 = norm(bcsstk15, 2)
 numCond_bcsstk15 = cond(bcsstk15)
 printf("\n")
@@ -33,6 +33,9 @@ printf("\n")
 nnzL_bcsstk01 = nnz(L)
 nnzU_bcsstk01 = nnz(U)
 nnz_bcsstk01 = nnz(bcsstk01)
+printf("A matriz U apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", rows(U),rows(U)^2, nnzU_bcsstk01, nnzU_bcsstk01/rows(U)^2*100)
+printf("A matriz L apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", rows(L),rows(L)^2, nnzL_bcsstk01, nnzL_bcsstk01/rows(L)^2*100)
+printf("A matriz bcsstk01 apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", size_bcsstk01,size_bcsstk01^2, nnz_bcsstk01, nnz_bcsstk01/size_bcsstk01^2*100)
 printf("\n")
 
 [L,U,P,Q] = lu(plat362);
@@ -42,6 +45,9 @@ printf("\n")
 nnzL_plat362 = nnz(L)
 nnzU_plat362 = nnz(U)
 nnz_plat362 = nnz(plat362)
+printf("A matriz U apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", rows(U),rows(U)^2, nnzU_plat362, nnzU_plat362/rows(U)^2*100)
+printf("A matriz L apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", rows(L),rows(L)^2, nnzL_plat362, nnzL_plat362/rows(L)^2*100)
+printf("A matriz plat362 apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", size_plat362,size_plat362^2, nnz_plat362, nnz_plat362/size_plat362^2*100)
 printf("\n")
 
 [L,U,P,Q] = lu(bcsstk15);
@@ -51,6 +57,9 @@ printf("\n")
 nnzL_bcsstk15 = nnz(L)
 nnzU_bcsstk15 = nnz(U)
 nnz_bcsstk15 = nnz(bcsstk15)
+printf("A matriz U apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", rows(U),rows(U)^2, nnzU_bcsstk15, nnzU_bcsstk15/rows(U)^2*100)
+printf("A matriz L apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", rows(L),rows(L)^2, nnzL_bcsstk15, nnzL_bcsstk15/rows(L)^2*100)
+printf("A matriz bcsstk15 apresenta %d linhas/colunas, %d posições e %d valores nulos. %.2f %% dos valores são nulos.\n", size_bcsstk15,size_bcsstk15^2, nnz_bcsstk15, nnz_bcsstk15/size_bcsstk15^2*100)
 printf("\n")
 
 
