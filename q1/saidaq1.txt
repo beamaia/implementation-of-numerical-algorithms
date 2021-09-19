@@ -1,0 +1,47 @@
+size_bcsstk01 =  48
+eNorm_bcsstk01 =    3.0152e+09
+numCond_bcsstk01 =    8.8234e+05
+
+size_plat362 =  362
+eNorm_plat362 =  0.77428
+numCond_plat362 =    2.1782e+11
+
+size_bcsstk15 =  3948
+eNorm_bcsstk15 =    6.0589e+09
+numCond_bcsstk15 =    6.5382e+09
+
+nnzL_bcsstk01 =  489
+nnzU_bcsstk01 =  489
+nnz_bcsstk01 =  400
+A matriz U apresenta 48 linhas/colunas, 2304 posições e 489 valores nulos. 21.22 % dos valores são nulos.
+A matriz L apresenta 48 linhas/colunas, 2304 posições e 489 valores nulos. 21.22 % dos valores são nulos.
+A matriz bcsstk01 apresenta 48 linhas/colunas, 2304 posições e 400 valores nulos. 17.36 % dos valores são nulos.
+
+nnzL_plat362 =  8060
+nnzU_plat362 =  8060
+nnz_plat362 =  5786
+A matriz U apresenta 362 linhas/colunas, 131044 posições e 8060 valores nulos. 6.15 % dos valores são nulos.
+A matriz L apresenta 362 linhas/colunas, 131044 posições e 8060 valores nulos. 6.15 % dos valores são nulos.
+A matriz plat362 apresenta 362 linhas/colunas, 131044 posições e 5786 valores nulos. 4.42 % dos valores são nulos.
+
+nnzL_bcsstk15 =  614585
+nnzU_bcsstk15 =  614585
+nnz_bcsstk15 =  117816
+A matriz U apresenta 3948 linhas/colunas, 15586704 posições e 614585 valores nulos. 3.94 % dos valores são nulos.
+A matriz L apresenta 3948 linhas/colunas, 15586704 posições e 614585 valores nulos. 3.94 % dos valores são nulos.
+A matriz bcsstk15 apresenta 3948 linhas/colunas, 15586704 posições e 117816 valores nulos. 0.76 % dos valores são nulos.
+
+taxaP_bcsstk01 =  59.100
+
+taxaP_plat362 =  64.107
+
+taxaP_bcsstk15 =  90.415
+
+errNorm_bcsstk01 =    1.6631e-13
+resNorm_bcsstk01 =    1.4305e-06
+
+errNorm_plat362 =    1.9301e-06
+resNorm_plat362 =    2.2942e-16
+
+errNorm_bcsstk15 =    7.0943e-12
+resNorm_bcsstk15 =    3.0994e-06
